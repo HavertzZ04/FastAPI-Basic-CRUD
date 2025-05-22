@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException, status
+from fastapi import APIRouter, HTTPException
 from schemas import UserCreate, User
 from crud import get_all_users, get_user, create_user, edit_user, delete_user
 
